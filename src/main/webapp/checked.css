@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* Reset default margin and padding */
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure, table, fieldset, legend, input, textarea, select, button { 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("IMG20221031084458.jpg"); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.username {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  min-height: 80vh; /* Center vertically */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
